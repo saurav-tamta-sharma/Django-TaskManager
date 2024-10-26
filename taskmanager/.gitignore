@@ -1,0 +1,58 @@
+# Django specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+/media
+/staticfiles
+/env/
+.venv/
+venv/
+
+# VS Code specific
+.vscode/
+
+# IDE specific
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python egg info
+*.egg-info/
+*.egg
+
+# Local environment variables
+.env
+*.env
+
+# Log files
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Test and coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
