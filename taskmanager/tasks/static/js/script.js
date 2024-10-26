@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': '9e813101fae917b6b51a089efed020057b6fd060'  // Add your token here
+                'Authorization': 'Add-you-token!'  // Add your token here
             },
             body: JSON.stringify({
                 title: title,
